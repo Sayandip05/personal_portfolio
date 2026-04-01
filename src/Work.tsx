@@ -5,7 +5,7 @@ export default function Work() {
   return (
     <>
       <section className="mb-16 md:mb-24">
-        <h1 className="text-[60px] md:text-[130px] leading-[0.9] font-bold tracking-[-0.04em] mb-10 md:mb-16 text-[#0A0A0A] dark:text-white transition-colors duration-300">My Work</h1>
+        <h1 className="text-[48px] sm:text-[60px] md:text-[100px] lg:text-[130px] leading-[0.9] font-bold tracking-[-0.04em] mb-8 md:mb-16 text-[#0A0A0A] dark:text-white transition-colors duration-300">My Work</h1>
         <div className="max-w-[850px] space-y-6 md:space-y-8 text-[18px] md:text-[22px] text-[#4A4A4A] dark:text-[#A3A3A3] leading-[1.6] transition-colors duration-300">
           <p>
             My work is centered around AI agent integration.
@@ -27,11 +27,11 @@ export default function Work() {
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" alt="Abstract technology" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
+                <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
             </div>
             <div className="flex items-center justify-between mb-2">
-              <h3 className="text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">FreelanceFlow</h3>
+              <h3 className="text-[20px] sm:text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">FreelanceFlow</h3>
               <div className="w-6 h-6 border-2 border-[#FF6B00] rounded-[4px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0">
                 <ArrowUpRight size={16} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
@@ -44,11 +44,11 @@ export default function Work() {
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800" alt="Network lines" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
+                <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
             </div>
             <div className="flex items-center justify-between mb-2">
-              <h3 className="text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">CareRemind</h3>
+              <h3 className="text-[20px] sm:text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">CareRemind</h3>
               <div className="w-6 h-6 border-2 border-[#FF6B00] rounded-[4px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0">
                 <ArrowUpRight size={16} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
@@ -61,11 +61,11 @@ export default function Work() {
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800" alt="Circuit board" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
+                <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
             </div>
             <div className="flex items-center justify-between mb-2">
-              <h3 className="text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">InvIQ</h3>
+              <h3 className="text-[20px] sm:text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">InvIQ</h3>
               <div className="w-6 h-6 border-2 border-[#FF6B00] rounded-[4px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0">
                 <ArrowUpRight size={16} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
@@ -78,11 +78,11 @@ export default function Work() {
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800" alt="Matrix code" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
+                <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
             </div>
             <div className="flex items-center justify-between mb-2">
-              <h3 className="text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">API Gateway</h3>
+              <h3 className="text-[20px] sm:text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">API Gateway</h3>
               <div className="w-6 h-6 border-2 border-[#FF6B00] rounded-[4px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0">
                 <ArrowUpRight size={16} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>

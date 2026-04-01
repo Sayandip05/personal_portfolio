@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <section className="mb-24 md:mb-40">
-        <h1 className="text-[60px] md:text-[130px] leading-[0.9] font-bold tracking-[-0.04em] mb-6 md:mb-10 text-[#0A0A0A] dark:text-white transition-colors duration-300">Sayandip Bar</h1>
+        <h1 className="text-[48px] sm:text-[60px] md:text-[100px] lg:text-[130px] leading-[0.9] font-bold tracking-[-0.04em] mb-8 md:mb-16 text-[#0A0A0A] dark:text-white transition-colors duration-300">Sayandip Bar</h1>
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-12 md:mb-16">
           <h2 className="text-[22px] md:text-[26px] font-bold text-[#333333] dark:text-[#EAEAEA] tracking-tight transition-colors duration-300">Software Developer</h2>
           <div className="flex items-center gap-2 text-[18px] md:text-[22px] font-bold text-[#333333] dark:text-[#EAEAEA] transition-colors duration-300">
@@ -31,17 +31,17 @@ export default function Home() {
         </div>
         <div className="h-[1px] w-full bg-[#F4D5C1] dark:bg-[#FF6B00]/30 mb-8 md:mb-10 transition-colors duration-300"></div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {/* Project 1 */}
           <div className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" alt="Abstract technology" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
+                <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
             </div>
             <div className="flex items-center justify-between mb-3">
-              <h3 className="text-[26px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">FreelanceFlow</h3>
+              <h3 className="text-[22px] sm:text-[26px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">FreelanceFlow</h3>
               <div className="w-7 h-7 border-2 border-[#FF6B00] rounded-[4px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0">
                 <ArrowUpRight size={18} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
@@ -54,11 +54,11 @@ export default function Home() {
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800" alt="Network lines" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
+                <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
             </div>
             <div className="flex items-center justify-between mb-3">
-              <h3 className="text-[26px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">CareRemind</h3>
+              <h3 className="text-[22px] sm:text-[26px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">CareRemind</h3>
               <div className="w-7 h-7 border-2 border-[#FF6B00] rounded-[4px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0">
                 <ArrowUpRight size={18} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
@@ -71,11 +71,11 @@ export default function Home() {
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800" alt="Circuit board" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
+                <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
             </div>
             <div className="flex items-center justify-between mb-3">
-              <h3 className="text-[26px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">InvIQ</h3>
+              <h3 className="text-[22px] sm:text-[26px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">InvIQ</h3>
               <div className="w-7 h-7 border-2 border-[#FF6B00] rounded-[4px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0">
                 <ArrowUpRight size={18} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>

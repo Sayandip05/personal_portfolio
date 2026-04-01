@@ -3,7 +3,7 @@ import { Mail, Linkedin, Github, Twitter } from 'lucide-react';
 export default function Contact() {
   return (
     <section className="mb-24">
-      <h1 className="text-[60px] md:text-[130px] leading-[0.9] font-bold tracking-[-0.04em] mb-10 md:mb-16 text-[#0A0A0A] dark:text-white transition-colors duration-300">Contact</h1>
+      <h1 className="text-[48px] sm:text-[60px] md:text-[100px] lg:text-[130px] leading-[0.9] font-bold tracking-[-0.04em] mb-8 md:mb-16 text-[#0A0A0A] dark:text-white transition-colors duration-300">Contact</h1>
       <div className="max-w-[850px] space-y-6 md:space-y-8 text-[18px] md:text-[22px] text-[#4A4A4A] dark:text-[#A3A3A3] leading-[1.6] transition-colors duration-300">
         <p>
           I'm currently open to new opportunities and collaborations. Whether you have a question, a project idea, or just want to say hi, I'd love to hear from you!

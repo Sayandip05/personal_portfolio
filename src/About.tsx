@@ -1,9 +1,11 @@
 export default function About() {
   return (
-    <div className="max-w-[850px] space-y-8 md:space-y-12 text-[18px] md:text-[22px] text-[#4A4A4A] dark:text-[#A3A3A3] leading-[1.6] transition-colors duration-300">
-      <p>
-        I am a Software Developer based in Kolkata, India, graduating with a B.Tech in 2027.
-      </p>
+    <div className="max-w-[850px]">
+      <h1 className="text-[48px] sm:text-[60px] md:text-[100px] lg:text-[130px] leading-[0.9] font-bold tracking-[-0.04em] mb-8 md:mb-16 text-[#0A0A0A] dark:text-white transition-colors duration-300">About Me</h1>
+      <div className="space-y-8 md:space-y-12 text-[18px] md:text-[22px] text-[#4A4A4A] dark:text-[#A3A3A3] leading-[1.6] transition-colors duration-300">
+        <p>
+          I am a Software Developer based in Kolkata, India, graduating with a B.Tech in 2027.
+        </p>
       <p>
         My technical expertise is heavily focused on AI agent integration. I spend my time building scalable applications and exploring how artificial intelligence can be seamlessly integrated into modern software systems.
       </p>
@@ -36,9 +38,10 @@ export default function About() {
         I'm always eager to take on new responsibilities and learn new things. If you're looking for a dedicated software developer who learns fast and works hard, I'd love to connect!
       </p>
 
-      <p>
-        You can also read more about my work <a href="https://github.com/Sayandip05" target="_blank" rel="noopener noreferrer" className="text-[#FF6B00] hover:underline">here</a>.
-      </p>
+        <p>
+          You can also read more about my work <a href="https://github.com/Sayandip05" target="_blank" rel="noopener noreferrer" className="text-[#FF6B00] hover:underline">here</a>.
+        </p>
+      </div>
     </div>
   );
 }
