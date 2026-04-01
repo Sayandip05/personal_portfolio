@@ -19,9 +19,9 @@ export default function Layout() {
 
   return (
     <div className="min-h-screen bg-[#F9F9F9] dark:bg-[#111111] text-[#111111] dark:text-[#F9F9F9] font-sans selection:bg-orange-200 dark:selection:bg-orange-900 transition-colors duration-300">
-      <div className="max-w-[900px] mx-auto px-6 md:px-12 lg:px-16 py-8 md:py-10">
-        {/* Header */}
-        <header className="flex flex-col md:flex-row items-center justify-between gap-6 mb-16 md:mb-32">
+      {/* Fixed Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-[#F9F9F9]/90 dark:bg-[#111111]/90 backdrop-blur-sm border-b border-[#E5E5E5] dark:border-[#333333] transition-colors duration-300">
+        <div className="max-w-[900px] mx-auto px-6 md:px-12 lg:px-16 py-4 md:py-5 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex flex-col sm:flex-row items-center gap-4 md:gap-6 w-full md:w-auto">
             <Link to="/" className={`text-[28px] font-black ${(!isAbout && !isWork && !isContact) ? 'text-[#FF6B00]' : 'text-[#111111] dark:text-white'} tracking-tighter leading-none`}>SB</Link>
             <div className="hidden sm:block w-[1px] h-5 bg-zinc-300 dark:bg-zinc-700"></div>
@@ -49,8 +49,11 @@ export default function Layout() {
               {isDark ? <Sun size={16} strokeWidth={2} fill="currentColor" /> : <Moon size={16} strokeWidth={2} fill="currentColor" />}
             </button>
           </div>
-        </header>
+        </div>
+      </header>
 
+      {/* Main Content */}
+      <div className="max-w-[900px] mx-auto px-6 md:px-12 lg:px-16 pt-28 md:pt-32 pb-8 md:pb-10">
         <main>
           <Outlet />
         </main>

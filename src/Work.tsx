@@ -1,4 +1,5 @@
 import { ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Work() {
   return (
@@ -98,7 +99,7 @@ export default function Work() {
           Whether it's in the world of web development or creative problem solving, my focus is always on creating work that scales - pushing the limits of what's possible while staying rooted in clean code and best practices.
         </p>
         <p>
-          If you'd like to connect for work queries or collaborations, please do <a href="/contact" className="text-[#FF6B00] hover:underline">get in touch</a>.
+          If you'd like to connect for work queries or collaborations, please do <Link to="/contact" className="text-[#FF6B00] hover:underline">get in touch</Link>.
         </p>
       </section>
     </>
