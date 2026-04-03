@@ -33,7 +33,7 @@ export default function Home() {
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {/* Project 1 */}
-          <div className="group cursor-pointer">
+          <a href="https://github.com/Sayandip05/FreelanceFlow" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" alt="Abstract technology" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
@@ -47,10 +47,10 @@ export default function Home() {
               </div>
             </div>
             <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[19px] transition-colors duration-300">Freelancer platform.</p>
-          </div>
+          </a>
 
           {/* Project 2 */}
-          <div className="group cursor-pointer">
+          <a href="https://github.com/Sayandip05/careremind" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800" alt="Network lines" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
@@ -64,10 +64,10 @@ export default function Home() {
               </div>
             </div>
             <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[19px] transition-colors duration-300">Medical application for patient care and reminders.</p>
-          </div>
+          </a>
 
           {/* Project 3 */}
-          <div className="group cursor-pointer">
+          <a href="https://github.com/Sayandip05/InvIQ" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800" alt="Circuit board" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
@@ -81,7 +81,7 @@ export default function Home() {
               </div>
             </div>
             <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[19px] transition-colors duration-300">B2B inventory management solution.</p>
-          </div>
+          </a>
         </div>
       </section>
     </>

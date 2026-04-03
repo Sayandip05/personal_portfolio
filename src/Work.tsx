@@ -23,7 +23,7 @@ export default function Work() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 md:gap-y-12">
           {/* Project 1 */}
-          <div className="group cursor-pointer">
+          <a href="https://github.com/Sayandip05/FreelanceFlow" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" alt="Abstract technology" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
@@ -37,10 +37,10 @@ export default function Work() {
               </div>
             </div>
             <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">Freelancer platform.</p>
-          </div>
+          </a>
 
           {/* Project 2 */}
-          <div className="group cursor-pointer">
+          <a href="https://github.com/Sayandip05/careremind" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800" alt="Network lines" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
@@ -54,10 +54,10 @@ export default function Work() {
               </div>
             </div>
             <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">Medical application for patient care and reminders.</p>
-          </div>
+          </a>
 
           {/* Project 3 */}
-          <div className="group cursor-pointer">
+          <a href="https://github.com/Sayandip05/InvIQ" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
               <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800" alt="Circuit board" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
@@ -71,24 +71,24 @@ export default function Work() {
               </div>
             </div>
             <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">B2B inventory management solution.</p>
-          </div>
+          </a>
 
           {/* Project 4 */}
-          <div className="group cursor-pointer">
+          <a href="https://github.com/Sayandip05/meeting-mind" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
-              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800" alt="Matrix code" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
+              <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800" alt="Meeting Mind" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
             </div>
             <div className="flex items-center justify-between mb-2">
-              <h3 className="text-[20px] sm:text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">API Gateway</h3>
+              <h3 className="text-[20px] sm:text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">Meeting Mind</h3>
               <div className="w-6 h-6 border-2 border-[#FF6B00] rounded-[4px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0">
                 <ArrowUpRight size={16} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
             </div>
-            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">A high-performance, secure API routing layer.</p>
-          </div>
+            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">AI-powered meeting assistant and notes organizer.</p>
+          </a>
 
 
         </div>
