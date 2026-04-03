@@ -17,17 +17,21 @@ export default function Layout() {
     }
   }, [isDark]);
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="min-h-screen bg-[#F9F9F9] dark:bg-[#111111] text-[#111111] dark:text-[#F9F9F9] font-sans selection:bg-orange-200 dark:selection:bg-orange-900 transition-colors duration-300">
       {/* Fixed Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-[#F9F9F9]/95 dark:bg-[#111111]/95 backdrop-blur-sm border-b border-[#E5E5E5] dark:border-[#333333] transition-colors duration-300">
         {/* Mobile Header - Stacked Layout */}
         <div className="sm:hidden max-w-[900px] mx-auto px-4 py-3 flex flex-col items-center gap-2">
-          <Link to="/" className={`text-[24px] font-black ${(!isAbout && !isWork && !isContact) ? 'text-[#FF6B00]' : 'text-[#111111] dark:text-white'} tracking-tighter leading-none`}>SB</Link>
+          <Link to="/" onClick={scrollToTop} className={`text-[24px] font-black ${(!isAbout && !isWork && !isContact) ? 'text-[#FF6B00]' : 'text-[#111111] dark:text-white'} tracking-tighter leading-none`}>SB</Link>
           <nav className="flex gap-4 text-[14px] text-zinc-600 dark:text-zinc-400">
-            <Link to="/about" className={`${isAbout ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>About</Link>
-            <Link to="/work" className={`${isWork ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>Work</Link>
-            <Link to="/contact" className={`${isContact ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>Contact</Link>
+            <Link to="/about" onClick={scrollToTop} className={`${isAbout ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>About</Link>
+            <Link to="/work" onClick={scrollToTop} className={`${isWork ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>Work</Link>
+            <Link to="/contact" onClick={scrollToTop} className={`${isContact ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>Contact</Link>
           </nav>
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-3 text-zinc-600 dark:text-zinc-400">
@@ -51,12 +55,12 @@ export default function Layout() {
         {/* Desktop Header - Single Row */}
         <div className="hidden sm:flex max-w-[900px] mx-auto px-6 md:px-12 lg:px-16 py-3 md:py-4 items-center justify-between">
           <div className="flex items-center gap-4 md:gap-6">
-            <Link to="/" className={`text-[22px] md:text-[28px] font-black ${(!isAbout && !isWork && !isContact) ? 'text-[#FF6B00]' : 'text-[#111111] dark:text-white'} tracking-tighter leading-none shrink-0`}>SB</Link>
+            <Link to="/" onClick={scrollToTop} className={`text-[22px] md:text-[28px] font-black ${(!isAbout && !isWork && !isContact) ? 'text-[#FF6B00]' : 'text-[#111111] dark:text-white'} tracking-tighter leading-none shrink-0`}>SB</Link>
             <div className="w-[1px] h-5 bg-zinc-300 dark:bg-zinc-700"></div>
             <nav className="flex gap-4 md:gap-6 text-[14px] md:text-[17px] text-zinc-600 dark:text-zinc-400">
-              <Link to="/about" className={`${isAbout ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors whitespace-nowrap`}>About</Link>
-              <Link to="/work" className={`${isWork ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors whitespace-nowrap`}>Work</Link>
-              <Link to="/contact" className={`${isContact ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors whitespace-nowrap`}>Contact</Link>
+              <Link to="/about" onClick={scrollToTop} className={`${isAbout ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors whitespace-nowrap`}>About</Link>
+              <Link to="/work" onClick={scrollToTop} className={`${isWork ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors whitespace-nowrap`}>Work</Link>
+              <Link to="/contact" onClick={scrollToTop} className={`${isContact ? 'text-[#FF6B00]' : 'hover:text-zinc-900 dark:hover:text-white'} transition-colors whitespace-nowrap`}>Contact</Link>
             </nav>
           </div>
           <div className="flex items-center gap-3 md:gap-5 shrink-0">

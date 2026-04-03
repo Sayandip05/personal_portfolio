@@ -36,7 +36,7 @@ export default function Work() {
                 <ArrowUpRight size={16} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
             </div>
-            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">Freelancer platform.</p>
+            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">Full-stack freelance marketplace with secure escrow payments, real-time chat, and AI-powered worklogs.</p>
           </a>
 
           {/* Project 2 */}
@@ -53,7 +53,7 @@ export default function Work() {
                 <ArrowUpRight size={16} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
             </div>
-            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">Medical application for patient care and reminders.</p>
+            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">AI-powered healthcare reminder system that sends automated WhatsApp/SMS appointment reminders to patients.</p>
           </a>
 
           {/* Project 3 */}
@@ -70,7 +70,7 @@ export default function Work() {
                 <ArrowUpRight size={16} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
             </div>
-            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">B2B inventory management solution.</p>
+            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">AI-assisted inventory platform with LangGraph agent, heatmap visualizations, and automated stock-out prevention.</p>
           </a>
 
           {/* Project 4 */}
@@ -87,7 +87,7 @@ export default function Work() {
                 <ArrowUpRight size={16} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
             </div>
-            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">AI-powered meeting assistant and notes organizer.</p>
+            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">AI meeting assistant that transforms recordings into searchable summaries optimized for Indian accents.</p>
           </a>
 
 

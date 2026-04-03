@@ -46,7 +46,7 @@ export default function Home() {
                 <ArrowUpRight size={18} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
             </div>
-            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[19px] transition-colors duration-300">Freelancer platform.</p>
+            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[19px] transition-colors duration-300">Full-stack freelance marketplace with secure escrow payments and AI-powered worklogs.</p>
           </a>
 
           {/* Project 2 */}
@@ -63,7 +63,7 @@ export default function Home() {
                 <ArrowUpRight size={18} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
             </div>
-            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[19px] transition-colors duration-300">Medical application for patient care and reminders.</p>
+            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[19px] transition-colors duration-300">AI-powered healthcare reminder system with automated WhatsApp/SMS notifications.</p>
           </a>
 
           {/* Project 3 */}
@@ -80,7 +80,7 @@ export default function Home() {
                 <ArrowUpRight size={18} className="text-[#FF6B00]" strokeWidth={2.5} />
               </div>
             </div>
-            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[19px] transition-colors duration-300">B2B inventory management solution.</p>
+            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[19px] transition-colors duration-300">AI-assisted inventory platform with LangGraph agent and automated stock-out prevention.</p>
           </a>
         </div>
       </section>
