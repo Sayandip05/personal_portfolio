@@ -124,10 +124,10 @@ export default function Layout() {
             © Sayandip Bar | 2026
           </div>
           <nav className="flex flex-wrap justify-center gap-4 md:gap-8 font-medium">
-            <Link to="/" className={`${(!isAbout && !isWork && !isContact) ? 'text-[#FF6B00]' : 'text-[#4A4A4A] dark:text-[#A3A3A3] hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>Home</Link>
-            <Link to="/about" className={`${isAbout ? 'text-[#FF6B00]' : 'text-[#4A4A4A] dark:text-[#A3A3A3] hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>About</Link>
-            <Link to="/work" className={`${isWork ? 'text-[#FF6B00]' : 'text-[#4A4A4A] dark:text-[#A3A3A3] hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>Work</Link>
-            <Link to="/contact" className={`${isContact ? 'text-[#FF6B00]' : 'text-[#4A4A4A] dark:text-[#A3A3A3] hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>Contact</Link>
+            <Link to="/" onClick={scrollToTop} className={`${(!isAbout && !isWork && !isContact) ? 'text-[#FF6B00]' : 'text-[#4A4A4A] dark:text-[#A3A3A3] hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>Home</Link>
+            <Link to="/about" onClick={scrollToTop} className={`${isAbout ? 'text-[#FF6B00]' : 'text-[#4A4A4A] dark:text-[#A3A3A3] hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>About</Link>
+            <Link to="/work" onClick={scrollToTop} className={`${isWork ? 'text-[#FF6B00]' : 'text-[#4A4A4A] dark:text-[#A3A3A3] hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>Work</Link>
+            <Link to="/contact" onClick={scrollToTop} className={`${isContact ? 'text-[#FF6B00]' : 'text-[#4A4A4A] dark:text-[#A3A3A3] hover:text-zinc-900 dark:hover:text-white'} transition-colors`}>Contact</Link>
           </nav>
         </footer>
       </div>
