@@ -35,7 +35,7 @@ export default function Home() {
           {/* Project 1 */}
           <a href="https://github.com/Sayandip05/FreelanceFlow" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
-              <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" alt="Abstract technology" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
+              <img src="/FreelanceFlow.png" alt="FreelanceFlow" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
@@ -52,7 +52,7 @@ export default function Home() {
           {/* Project 2 */}
           <a href="https://github.com/Sayandip05/careremind" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
-              <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800" alt="Network lines" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
+              <img src="/CareRemind.png" alt="CareRemind" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>

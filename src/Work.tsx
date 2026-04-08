@@ -25,7 +25,7 @@ export default function Work() {
           {/* Project 1 */}
           <a href="https://github.com/Sayandip05/FreelanceFlow" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
-              <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" alt="Abstract technology" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
+              <img src="/FreelanceFlow.png" alt="FreelanceFlow" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
@@ -42,7 +42,7 @@ export default function Work() {
           {/* Project 2 */}
           <a href="https://github.com/Sayandip05/careremind" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
             <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
-              <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800" alt="Network lines" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
+              <img src="/CareRemind.png" alt="CareRemind" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
               </div>
@@ -90,6 +90,22 @@ export default function Work() {
             <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">AI meeting assistant that transforms recordings into searchable summaries optimized for Indian accents.</p>
           </a>
 
+          {/* Project 5 */}
+          <a href="https://github.com/Sayandip05/TrustFix" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
+            <div className="relative aspect-[1.4/1] rounded-xl overflow-hidden mb-5 bg-zinc-200 dark:bg-zinc-800 transition-colors duration-300">
+              <img src="/trustfix.png" alt="TrustFix" className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700 ease-out" />
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="text-[60px] sm:text-[90px] font-medium text-white/40 tracking-tighter">2026</span>
+              </div>
+            </div>
+            <div className="flex items-center justify-between mb-2">
+              <h3 className="text-[20px] sm:text-[22px] font-bold text-[#0A0A0A] dark:text-white group-hover:text-[#FF6B00] dark:group-hover:text-[#FF6B00] tracking-tight transition-colors duration-300">TrustFix</h3>
+              <div className="w-6 h-6 border-2 border-[#FF6B00] rounded-[4px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-x-2 group-hover:translate-x-0">
+                <ArrowUpRight size={16} className="text-[#FF6B00]" strokeWidth={2.5} />
+              </div>
+            </div>
+            <p className="text-[#4A4A4A] dark:text-[#A3A3A3] leading-relaxed text-[16px] transition-colors duration-300">A full-stack service-commerce platform for on-demand home maintenance that uses conversational AI to estimate work, holds funds in escrow until completion, and exposes end-to-end booking status to customers and technicians.</p>
+          </a>
 
         </div>
       </section>
