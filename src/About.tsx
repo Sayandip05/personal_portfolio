@@ -12,8 +12,8 @@ export default function About() {
 
       <div className="w-full aspect-[1.8/1] rounded-xl overflow-hidden my-10 md:my-16">
         <img 
-          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1200" 
-          alt="Developer working on multiple screens" 
+          src="/sayandipbar.png" 
+          alt="Sayandip Bar" 
           className="w-full h-full object-cover"
         />
       </div>
@@ -28,8 +28,8 @@ export default function About() {
 
       <div className="w-full aspect-[1.8/1] rounded-xl overflow-hidden my-10 md:my-16">
         <img 
-          src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200" 
-          alt="Developer typing on a laptop" 
+          src="/Infront of desk.png" 
+          alt="Infront of desk" 
           className="w-full h-full object-cover"
         />
       </div>

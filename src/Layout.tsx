@@ -94,7 +94,7 @@ export default function Layout() {
         <section className="mb-16 md:mb-24 mt-20 md:mt-32">
           <div className="bg-[#F2F2F2] dark:bg-[#1A1A1A] border border-[#E5E5E5] dark:border-[#333333] rounded-xl p-4 sm:p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-10 items-center overflow-hidden transition-colors duration-300">
             <div className="w-full md:w-[280px] lg:w-[320px] aspect-[1.5/1] rounded-lg overflow-hidden shrink-0">
-              <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800" alt="Corporate building" className="w-full h-full object-cover" />
+              <img src="/Want to hire.png" alt="Looking to Hire" className="w-full h-full object-cover" />
             </div>
             <div className="flex-1 min-w-0 py-2 w-full">
               <h2 className="text-[26px] sm:text-[32px] md:text-[38px] font-bold tracking-tight mb-4 md:mb-6 text-[#0A0A0A] dark:text-white">Looking to Hire?</h2>
