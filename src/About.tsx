@@ -10,11 +10,11 @@ export default function About() {
         My technical expertise is heavily focused on AI agent integration. I spend my time building scalable applications and exploring how artificial intelligence can be seamlessly integrated into modern software systems.
       </p>
 
-      <div className="w-full aspect-[1.8/1] rounded-xl overflow-hidden my-10 md:my-16">
+      <div className="w-full rounded-xl overflow-hidden my-10 md:my-16">
         <img 
           src="/sayandipbar.png" 
           alt="Sayandip Bar" 
-          className="w-full h-full object-cover"
+          className="w-full h-auto"
         />
       </div>
 
@@ -26,11 +26,11 @@ export default function About() {
         I don't have traditional hobbies like traveling or outdoor exploration. My life revolves around the digital world. I can sit in front of my computer for hours on end, fully dedicated to my work, writing clean code, and optimizing complex logic. For me, software development isn't just a career path—it's where I channel all my focus and energy.
       </p>
 
-      <div className="w-full aspect-[1.8/1] rounded-xl overflow-hidden my-10 md:my-16">
+      <div className="w-full rounded-xl overflow-hidden my-10 md:my-16">
         <img 
           src="/Infront of desk.png" 
           alt="Infront of desk" 
-          className="w-full h-full object-cover"
+          className="w-full h-auto"
         />
       </div>
 
